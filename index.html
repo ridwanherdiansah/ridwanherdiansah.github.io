@@ -5,179 +5,113 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Portofolio - Ridwan Herdiansah</title>
+  <title>Portfolio - Ridwan Herdiansah</title>
 
-  <!--
-    - favicon
-  -->
+  <!-- Favicon -->
   <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
 
-  <!--
-    - custom css link
-  -->
+  <!-- Custom CSS -->
   <link rel="stylesheet" href="./assets/css/style.css">
 
-  <!--
-    - google font link
-  -->
+  <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+  <!-- Ion Icons -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 </head>
 
 <body>
-
-  <!--
-    - #MAIN
-  -->
-
   <main>
-
-    <!--
-      - #SIDEBAR
-    -->
-
+    <!-- Sidebar -->
     <aside class="sidebar" data-sidebar>
-
       <div class="sidebar-info">
-
         <figure class="avatar-box">
           <img src="./assets/images/photoss.jpg" class="rounded-full object-cover" alt="Ridwan Herdiansah">
         </figure>
 
         <div class="info-content">
-          <h1 class="name" title="Ridwan Herdiansah">Ridwan Herdiansah</h1>
-
+          <h1 class="name">Ridwan Herdiansah</h1>
           <p class="title">Fullstack Web Developer</p>
         </div>
 
-        <button class="info_more-btn" data-sidebar-btn>
+        <button class="info_more-btn" data-sidebar-btn aria-label="Toggle contacts">
           <span>Show Contacts</span>
-
           <ion-icon name="chevron-down"></ion-icon>
         </button>
-
       </div>
 
       <div class="sidebar-info_more">
-
         <div class="separator"></div>
 
         <ul class="contacts-list">
-
           <li class="contact-item">
-
             <div class="icon-box">
               <ion-icon name="mail-outline"></ion-icon>
             </div>
-
             <div class="contact-info">
               <p class="contact-title">Email</p>
-
               <a href="mailto:mawarridwan@gmail.com" class="contact-link">mawarridwan@gmail.com</a>
             </div>
-
           </li>
 
           <li class="contact-item">
-
             <div class="icon-box">
               <ion-icon name="phone-portrait-outline"></ion-icon>
             </div>
-
             <div class="contact-info">
-              <p class="contact-title">Whatsapp</p>
-
-              <a target="_blank" href="https://wa.me/6285861910392" class="contact-link">+62 858-6191-0392</a>
+              <p class="contact-title">WhatsApp</p>
+              <a href="https://wa.me/6285861910392" target="_blank" class="contact-link">+62 858-6191-0392</a>
             </div>
-
           </li>
 
-
           <li class="contact-item">
-
             <div class="icon-box">
               <ion-icon name="location-outline"></ion-icon>
             </div>
-
             <div class="contact-info">
               <p class="contact-title">Location</p>
-
-              <address>Bandung</address>
+              <address>Bandung, Indonesia</address>
             </div>
-
           </li>
-
         </ul>
 
         <div class="separator"></div>
 
         <ul class="social-list">
-
           <li class="social-item">
-            <a target="_blank" href="https://ridwanherdiansah.github.io/" class="social-link">
+            <a href="https://github.com/ridwanherdiansah" target="_blank" class="social-link" aria-label="GitHub">
               <ion-icon name="logo-github"></ion-icon>
             </a>
           </li>
-
           <li class="social-item">
-            <a target="_blank" href="https://www.instagram.com/boboyy_boyy/" class="social-link">
+            <a href="https://www.instagram.com/boboyy_boyy/" target="_blank" class="social-link" aria-label="Instagram">
               <ion-icon name="logo-instagram"></ion-icon>
             </a>
           </li>
-
         </ul>
-
       </div>
-
     </aside>
 
-
-
-    <!--
-      - #main-content
-    -->
-
+    <!-- Main Content -->
     <div class="main-content">
-
-      <!--
-        - #NAVBAR
-      -->
-
+      <!-- Navigation -->
       <nav class="navbar">
-
         <ul class="navbar-list">
-
           <li class="navbar-item">
-            <button class="navbar-link  active" data-nav-link>About</button>
+            <button class="navbar-link active" data-nav-link>About</button>
           </li>
-
           <li class="navbar-item">
             <button class="navbar-link" data-nav-link>Projects</button>
           </li>
-
-          <!-- <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Blog</button>
-          </li> -->
-
-          <!-- <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Contact</button>
-          </li> -->
-
         </ul>
-
       </nav>
 
-
-
-
-
-      <!--
-        - #ABOUT
-      -->
-
-      <article class="about  active" data-page="about">
-
+      <!-- About Section -->
+      <article class="about active" data-page="about">
+        
         <header>
           <h2 class="h2 article-title">About</h2>
         </header>
@@ -244,6 +178,47 @@
           </div>
 
           <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <a target="_blank" href="https://aptavis.net/" class="h4 timeline-item-title">
+                <span>PT APTAVIS </span>
+                 <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" color="white" height="18"
+                  width="18" xmlns="http://www.w3.org/2000/svg" style="color: white;">
+                  <path fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="32"
+                    d="M384 224v184a40 40 0 0 1-40 40H104a40 40 0 0 1-40-40V168a40 40 0 0 1 40-40h167.48M336 64h112v112M224 288 440 72">
+                  </path>
+                </svg>
+              </a>
+              <span>Januari 2025 - Present</span>
+
+              <ul class="timeline-text">
+                <li>
+                  ● Developed and maintained Samsung TV operating systems using Tizen Studio, ensuring optimal performance and compatibility across various TV models.
+                </li>
+                <li>
+                  ● Designed and implemented interactive user interfaces for TV operating systems, enhancing user engagement and overall viewing experience.
+                </li>
+                <li>
+                  ● Improved user experience by creating more intuitive and user-friendly interfaces for TV operating systems, focusing on accessibility and ease of navigation.
+                </li>
+                <li>
+                  ● Managed and resolved application bugs through efficient use of project management tools like JIRA and team collaboration via Slack, ensuring timely delivery of fixes and updates.
+                </li>
+                
+                <li>
+                  ● Integrated TV applications with backend APIs, ensuring seamless data exchange and functionality across different system components.
+                </li>
+
+                <li>
+                  ●  Collaborated with cross-functional teams to implement new features and optimize existing functionalities in the TV operating system.
+                </li>
+                <li>
+                  ● Conducted regular code reviews and implemented best practices to maintain high-quality code standards and system stability.
+                </li>
+              </ul>
+
+            </li>
 
             <li class="timeline-item">
 
@@ -348,89 +323,11 @@
 
         </section>
 
-        <!--
-          - service
-        -->
-
-        <section class="service">
-
-          <h3 class="h3 service-title">My Skills</h3>
-
-          <ul class="service-list">
-            <li>
-              <img title="Javascript" class="rounded-image" src="/assets/images/logo/logo-js.webp" width="50"
-                height="50" />
-              <span>Javascript</span>
-            </li>
-            <li>
-              <img title="Javascript" class="rounded-image" src="/assets/images/logo/logo-jquery.webp" width="50"
-                height="50" />
-              <span>JQuery</span>
-            </li>
-            <li>
-              <img title="React" class="rounded-image" src="/assets/images/logo/logo-react.webp" width="50"
-                height="50" />
-              <span>React.js</span>
-            </li>
-            <li>
-              <img title="React" class="rounded-image" src="/assets/images/logo/logo-nodejs.webp" width="50"
-                height="50" />
-              <span>Node.Js</span>
-            </li>
-            <li>
-              <img title="React" class="rounded-image" src="/assets/images/logo/logo-expressjs.png" width="50"
-                height="50" />
-              <span>Express.js</span>
-            </li>
-            <li>
-              <img title="React" class="rounded-image" src="/assets/images/logo/logo-typescript.webp" width="50"
-                height="50" />
-              <span>Typescrip</span>
-            </li>
-            <li>
-              <img title="Nextjs" class="rounded-image" src="/assets/images/logo/logo-nextjs.webp" width="50"
-                height="50" />
-              <span>Next.js</span>
-            </li>
-            <li>
-              <img title="Php" class="rounded-image" src="/assets/images/logo/logo-php.webp" width="90" height="50" />
-              <span>PHP</span>
-            </li>
-            <li>
-              <img title="Laravel" class="rounded-image" src="/assets/images/logo/logo-laravel.webp" width="50"
-                height="50" />
-              <span>Laravel</span>
-            </li>
-            <li>
-              <img title="JQuery" class="rounded-image" src="/assets/images/logo/logo-lumen.webp" width="50"
-                height="50" />
-              <span>Lumen</span>
-            </li>
-            <li>
-              <img title="Codeigniter" class="rounded-image" src="/assets/images/logo/logo-codeigniter.webp" width="50"
-                height="50" />
-              <span>Codeigniter</span>
-            </li>
-            <li>
-              <img title="Mysql" class="rounded-image" src="/assets/images/logo/logo-mysql.webp" width="100"
-                height="50" />
-              <span>Mysql</span>
-            </li>
-
-          </ul>
-
-        </section>
-
       </article>
 
-
-
-      <!--
-        - #PORTFOLIO
-      -->
-
+      <!-- Projects Section -->
       <article class="portfolio" data-page="projects">
-
+        
         <header>
           <h2 class="h2 article-title">Projects</h2>
         </header>
@@ -780,266 +677,10 @@
         </section>
 
       </article>
-
-
-
-
-
-      <!--
-        - #BLOG
-      -->
-
-      <!-- <article class="blog" data-page="blog">
-
-        <header>
-          <h2 class="h2 article-title">Blog</h2>
-        </header>
-
-        <section class="blog-posts">
-
-          <ul class="blog-posts-list">
-
-            <li class="blog-post-item">
-              <a href="#">
-
-                <figure class="blog-banner-box">
-                  <img src="./assets/images/blog-1.jpg" alt="Design conferences in 2022" loading="lazy">
-                </figure>
-
-                <div class="blog-content">
-
-                  <div class="blog-meta">
-                    <p class="blog-category">Design</p>
-
-                    <span class="dot"></span>
-
-                    <time datetime="2022-02-23">Fab 23, 2022</time>
-                  </div>
-
-                  <h3 class="h3 blog-item-title">Design conferences in 2022</h3>
-
-                  <p class="blog-text">
-                    Veritatis et quasi architecto beatae vitae dicta sunt, explicabo.
-                  </p>
-
-                </div>
-
-              </a>
-            </li>
-
-            <li class="blog-post-item">
-              <a href="#">
-
-                <figure class="blog-banner-box">
-                  <img src="./assets/images/blog-2.jpg" alt="Best fonts every designer" loading="lazy">
-                </figure>
-
-                <div class="blog-content">
-
-                  <div class="blog-meta">
-                    <p class="blog-category">Design</p>
-
-                    <span class="dot"></span>
-
-                    <time datetime="2022-02-23">Fab 23, 2022</time>
-                  </div>
-
-                  <h3 class="h3 blog-item-title">Best fonts every designer</h3>
-
-                  <p class="blog-text">
-                    Sed ut perspiciatis, nam libero tempore, cum soluta nobis est eligendi.
-                  </p>
-
-                </div>
-
-              </a>
-            </li>
-
-            <li class="blog-post-item">
-              <a href="#">
-
-                <figure class="blog-banner-box">
-                  <img src="./assets/images/blog-3.jpg" alt="Design digest #80" loading="lazy">
-                </figure>
-
-                <div class="blog-content">
-
-                  <div class="blog-meta">
-                    <p class="blog-category">Design</p>
-
-                    <span class="dot"></span>
-
-                    <time datetime="2022-02-23">Fab 23, 2022</time>
-                  </div>
-
-                  <h3 class="h3 blog-item-title">Design digest #80</h3>
-
-                  <p class="blog-text">
-                    Excepteur sint occaecat cupidatat no proident, quis nostrum exercitationem ullam corporis suscipit.
-                  </p>
-
-                </div>
-
-              </a>
-            </li>
-
-            <li class="blog-post-item">
-              <a href="#">
-
-                <figure class="blog-banner-box">
-                  <img src="./assets/images/blog-4.jpg" alt="UI interactions of the week" loading="lazy">
-                </figure>
-
-                <div class="blog-content">
-
-                  <div class="blog-meta">
-                    <p class="blog-category">Design</p>
-
-                    <span class="dot"></span>
-
-                    <time datetime="2022-02-23">Fab 23, 2022</time>
-                  </div>
-
-                  <h3 class="h3 blog-item-title">UI interactions of the week</h3>
-
-                  <p class="blog-text">
-                    Enim ad minim veniam, consectetur adipiscing elit, quis nostrud exercitation ullamco laboris nisi.
-                  </p>
-
-                </div>
-
-              </a>
-            </li>
-
-            <li class="blog-post-item">
-              <a href="#">
-
-                <figure class="blog-banner-box">
-                  <img src="./assets/images/blog-5.jpg" alt="The forgotten art of spacing" loading="lazy">
-                </figure>
-
-                <div class="blog-content">
-
-                  <div class="blog-meta">
-                    <p class="blog-category">Design</p>
-
-                    <span class="dot"></span>
-
-                    <time datetime="2022-02-23">Fab 23, 2022</time>
-                  </div>
-
-                  <h3 class="h3 blog-item-title">The forgotten art of spacing</h3>
-
-                  <p class="blog-text">
-                    Maxime placeat, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  </p>
-
-                </div>
-
-              </a>
-            </li>
-
-            <li class="blog-post-item">
-              <a href="#">
-
-                <figure class="blog-banner-box">
-                  <img src="./assets/images/blog-6.jpg" alt="Design digest #79" loading="lazy">
-                </figure>
-
-                <div class="blog-content">
-
-                  <div class="blog-meta">
-                    <p class="blog-category">Design</p>
-
-                    <span class="dot"></span>
-
-                    <time datetime="2022-02-23">Fab 23, 2022</time>
-                  </div>
-
-                  <h3 class="h3 blog-item-title">Design digest #79</h3>
-
-                  <p class="blog-text">
-                    Optio cumque nihil impedit uo minus quod maxime placeat, velit esse cillum.
-                  </p>
-
-                </div>
-
-              </a>
-            </li>
-
-          </ul>
-
-        </section>
-
-      </article> -->
-
-
-
-
-
-      <!--
-        - #CONTACT
-      -->
-
-      <article class="contact" data-page="contact">
-
-        <header>
-          <h2 class="h2 article-title">Contact</h2>
-        </header>
-
-        <section class="mapbox" data-mapbox>
-          <figure>
-            <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d199666.5651251294!2d-121.58334177520186!3d38.56165006739519!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x809ac672b28397f9%3A0x921f6aaa74197fdb!2sSacramento%2C%20CA%2C%20USA!5e0!3m2!1sen!2sbd!4v1647608789441!5m2!1sen!2sbd"
-              width="400" height="300" loading="lazy"></iframe>
-          </figure>
-        </section>
-
-        <section class="contact-form">
-
-          <h3 class="h3 form-title">Contact Form</h3>
-
-          <form action="#" class="form" data-form>
-
-            <div class="input-wrapper">
-              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
-
-              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
-            </div>
-
-            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
-
-            <button class="form-btn" type="submit" disabled data-form-btn>
-              <ion-icon name="paper-plane"></ion-icon>
-              <span>Send Message</span>
-            </button>
-
-          </form>
-
-        </section>
-
-      </article>
-
     </div>
-
   </main>
 
-
-
-
-
-
-  <!--
-    - custom js link
-  -->
+  <!-- Custom Script -->
   <script src="./assets/js/script.js"></script>
-
-  <!--
-    - ionicon link
-  -->
-  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-
 </body>
-
 </html>
